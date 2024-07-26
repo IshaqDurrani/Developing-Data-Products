@@ -1,0 +1,31 @@
+---
+title: "My assignment- Leaflet map"
+author: "Ishaq Ali Shah"
+date: "2024-07-26"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Developing Data Products Week 2 Assignment
+
+As per the guidelines, an interactive map is made via leaflet package in R Markdown.
+The github link is 
+
+Here are two visit places in Islamabad, Pakistan i.e. Daman-e-Koh and Faisal Masjid.
+
+```{r}
+library(leaflet)
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lat=33.7395, lng=73.0554, popup="Daman-e-Koh, Islamabad") %>%
+  addMarkers(lat=33.7299, lng=73.0384, popup="Faisal Masjid, Islamabad") #%>%
+ # %addMarkers(lat=33.6833, lng=73.0666, popup="LoK Virsa Museum, Islamabad") #%>%
+  #setView (lat=28.6129, lng=77.2295, zoom=16) 
+  
+m  # Print the map
+```
