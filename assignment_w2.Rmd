@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Developing Data Products Week 2 Assignment
 
 As per the guidelines, an interactive map is made via leaflet package in R Markdown.
-The github link is 
+The github link is https://github.com/IshaqDurrani/Developing-Data-Products
 
 Here are two visit places in Islamabad, Pakistan i.e. Daman-e-Koh and Faisal Masjid.
 
