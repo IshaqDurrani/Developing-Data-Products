@@ -1,22 +1,16 @@
 ---
-title: "My assignment- Leaflet map"
-author: "Ishaq Ali Shah"
-date: "2024-07-26"
+title: "29-07-2024"
+author: ""
+date: ""
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Developing Data Products Week 2 Assignment
-
-As per the guidelines, an interactive map is made via leaflet package in R Markdown.
-The github link is https://github.com/IshaqDurrani/Developing-Data-Products
-
-Here are two visit places in Islamabad, Pakistan i.e. Daman-e-Koh and Faisal Masjid.
 
 ```{r}
 library(leaflet)
